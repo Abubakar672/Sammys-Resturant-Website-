@@ -1,7 +1,25 @@
-#title div{
-    background-color: black;
-    
-    background: url(Assests/background-wallpaper-2.jpeg);
-    background-attachment: fixed;
+#title{
+    background: url(Assests/Steak-16406.gif);
+    /* background-repeat: no-repeat; */
     background-size: cover;
-} 
+    background-position: center;
+    height: 100%;
+}
+.navbar-brand{
+    font-size: xx-large;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.row h1{
+
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    justify-content: center;
+    line-height: 50px;
+}
+.container-fluid .row{
+    padding: 23% 0% ;
+    text-align: center;
+}
