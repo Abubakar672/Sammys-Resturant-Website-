@@ -1,5 +1,5 @@
 #title{
-    background: url(Assests/Steak-16406.gif);
+    background: url("https://media.giphy.com/media/JT84miMSROMIEvIUTa/giphy.gif");
     /* background-repeat: no-repeat; */
     background-size: cover;
     background-position: center;
@@ -9,6 +9,7 @@
     font-size: xx-large;
     font-family: 'Open Sans', sans-serif;
 }
+
 
 .row h1{
 
