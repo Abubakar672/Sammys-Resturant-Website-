@@ -1,18 +1,25 @@
 #title{
     background: url("https://media.giphy.com/media/JT84miMSROMIEvIUTa/giphy.gif");
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 100%;
 }
 .navbar-brand{
-    font-size: xx-large;
+    font-size: 3.5rem;
+    font-weight: bold;
     font-family: 'Open Sans', sans-serif;
 }
 
+.nav-item{
+padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1rem;
+}
 
 .row h1{
-
     font-family: 'Lato', sans-serif;
     color: white;
     font-size: 3em;
@@ -23,4 +30,38 @@
 .container-fluid .row{
     padding: 23% 0% ;
     text-align: center;
+}
+
+.row .social-buttons{
+    border: none;
+    margin-top: 12px;
+}
+.row i{
+    size: 5x;
+}
+
+#features{
+    background: url(Assests/11.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+ 
+}
+
+.feature-heading h1{
+    padding-bottom: 2%;
+}
+
+.features-container .row {
+padding: 17.5% 10%;
+color: white;
+}
+.feature-box img{
+    width: 20%;
+    padding-bottom: 3%;
+}
+
+#features p {
+    font-family: 'Lato', sans-serif;
 }
