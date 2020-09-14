@@ -1,25 +1,30 @@
-#title{
+#title {
     background: url("https://media.giphy.com/media/JT84miMSROMIEvIUTa/giphy.gif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 100%;
 }
-.navbar-brand{
+
+#contact {
+    background-color: #BED49D;
+}
+
+.navbar-brand {
     font-size: 3.5rem;
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
 }
 
-.nav-item{
-padding: 0 18px;
+.nav-item {
+    padding: 0 18px;
 }
 
-.nav-link{
+.nav-link {
     font-size: 1rem;
 }
 
-.row h1{
+.row h1 {
     font-family: 'Lato', sans-serif;
     color: white;
     font-size: 3em;
@@ -27,41 +32,142 @@ padding: 0 18px;
     justify-content: center;
     line-height: 50px;
 }
-.container-fluid .row{
-    padding: 23% 0% ;
+
+.container-fluid .row {
+    padding: 23% 0%;
     text-align: center;
 }
 
-.row .social-buttons{
+.row .social-buttons {
     border: none;
     margin-top: 12px;
 }
-.row i{
+
+.row i {
     size: 5x;
 }
 
-#features{
+#features {
     background: url(Assests/11.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     opacity: 0.8;
- 
+
 }
 
-.feature-heading h1{
+.feature-heading h1 {
     padding-bottom: 2%;
 }
 
 .features-container .row {
-padding: 17.5% 10%;
-color: white;
+    padding: 17.5% 10%;
+    color: white;
 }
-.feature-box img{
+
+.feature-box img {
     width: 20%;
     padding-bottom: 3%;
 }
 
 #features p {
     font-family: 'Lato', sans-serif;
+}
+
+#testimonials .container{
+    background: url(Assests/TWITTER.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-position-x: left;
+    text-align: center;
+    padding: 50px;
+    margin-top: 11%;
+    font-family: brandon-grotesque, sans-serif;  
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-stretch: condensed;
+}
+
+#testimonials .twitter{
+   width: 60%;  
+
+}
+
+#testimonials .person {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+    justify-content: center;
+}
+
+/* .contact-form{
+    padding: 10px;
+    margin: 20px;
+    justify-content: center;
+
+} */
+
+#press .img1lo {
+    width: 10%;
+    margin: 20px 20px 50px ;
+}
+
+
+#press .img2lo {
+    width: 10%;    
+    margin: 20px 20px 50px ;
+}
+
+#press .log{   
+    margin: 20px 20px 50px ;
+}
+
+#press{
+   text-align: center;
+   padding: 0% 10%;
+   padding-bottom: 5%;
+   margin: 20px 20px 50px ;
+}
+
+
+.contact-form span {
+    color: #f7c08a;
+}
+
+.contact-form h1 {
+    font-size: 3em;
+}
+
+.contact-form h3 {
+    padding: 10px;
+    color: #333;
+    font-style: normal;
+}
+
+form {
+    padding: 10px;
+    margin: 20px;
+
+
+}
+
+form label {
+    font-size: 20px;
+    color: #444;
+
+}
+
+form input {
+
+    width: 100%;
+    padding: 10px;
+    border: 1px solid lightgray;
+}
+
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid lightgray;
+
 }
