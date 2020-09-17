@@ -82,7 +82,7 @@
     background-position-x: left;
     text-align: center;
     padding: 50px;
-    margin-top: 11%;
+    margin-top: 12%;
     font-family: brandon-grotesque, sans-serif;  
     font-family: 'Roboto', sans-serif;
     font-style: italic;
@@ -171,3 +171,18 @@ form textarea {
     border: 1px solid lightgray;
 
 }
+
+#pricing{
+    background:url(Assests/finalpric.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 13%;
+    backface-visibility: visible;
+    background-position-y: 100% ;
+}
+.headingpricing{
+    text-align: center;
+    color: black;
+
+}
+
