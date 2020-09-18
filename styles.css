@@ -173,16 +173,18 @@ form textarea {
 }
 
 #pricing{
-    background:url(Assests/finalpric.png);
+    background:url(Assests/finalpric\ copy.png) center center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 13%;
+    padding: 10%;
     backface-visibility: visible;
-    background-position-y: 100% ;
+    background-position-y: 100% ;  
 }
 .headingpricing{
     text-align: center;
     color: black;
-
+    padding-bottom: 10%;
+    font-weight: bolder;
+    font-size: 3rem;
 }
-
+ 
