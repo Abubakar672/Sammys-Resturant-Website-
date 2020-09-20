@@ -197,3 +197,19 @@ form textarea {
     font-size: 3rem;
 }
  
+
+#cta{
+    background: url(Assests/brownie-2342762.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding: 18% ;
+}
+#cta h3{
+    color:whitesmoke;
+    text-align: center;
+    padding-bottom: 40%;
+    
+     
+}
