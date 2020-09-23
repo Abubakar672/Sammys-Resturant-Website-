@@ -27,6 +27,7 @@
 .row h1 {
     font-family: 'Lato', sans-serif;
     color: white;
+    font-weight: 1000;
     font-size: 3em;
     text-align: center;
     justify-content: center;
@@ -58,6 +59,7 @@
 
 .feature-heading h1 {
     padding-bottom: 2%;
+    font-weight: bolder;
 }
 
 .features-container .row {
@@ -72,6 +74,7 @@
 
 #features p {
     font-family: 'Lato', sans-serif;
+    font-weight: 900;
 }
 
 #testimonials .container{
@@ -210,9 +213,11 @@ form textarea {
     font-weight: bold;
     font-size: 4.2rem;
     text-align: center; 
+    
 }
 #cta .s1{
-    color: rgb(213,168,114);
+   
+    color: wheat;
 
 }
 #cta .s2{
@@ -236,5 +241,6 @@ color: rgb(242,170,72);
 #footer p{
     color: white;
     font-family: 'Lato', sans-serif;
+    font-weight: bold;
     padding-top: 0.5%;
 }
